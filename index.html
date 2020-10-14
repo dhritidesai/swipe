@@ -9,7 +9,9 @@
     <link rel="shortcut icon" href="images/favicon.ico">
   <script src="https://kit.fontawesome.com/1944f7b2a4.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-  </head>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   <body>
 <div class="row nav">
   <div class="col-4 Discover">
@@ -23,7 +25,9 @@
   </div>
   <hr>
 </div>
-    <div class="page1"
+<div id="pg-carousel" class="carousel slide" data-ride="false">
+  <div class="carousel-inner">
+    <div class="page1 container-fluid carousel-item active"
     id="page1"
     ontouchstart="p1Start(event)"
     ontouchmove="p1Move(event)"
@@ -35,11 +39,13 @@
           “Happy New Year 2020”. Another year has gone by and a new year awaits us.
           We have grown a bit more, we have much more to cherish, many more to love and a lot more to be thankful for.
           However, a new year comes with new resolutions, new promises and positive changes in our lives that lead us towards a better and more beautiful future.
-        I wish you courage, hope and faith to overcome all of the hurdles you may face. May you have a great year and a wonderful time ahead.
-          “Happy New Year 2020”. Another year has gone by and a new year awaits us.
+          New Year is widely celebrated on the 1st of January every year, but in some cultures and traditions,
+          New Year is celebrated on different days. The celebrations vary on the basis of culture, traditions, countries and regions.
+          But it is a day that gives every person choices and chances to make changes in their lives that will lead to happiness and positivity.
+        <br><br><br><br>
       </p>
     </div>
-    <div class="page2"
+    <div class="page2 container-fluid carousel-item"
     id="page2"
     ontouchstart="p2Start(event)"
     ontouchmove="p2Move(event)"
@@ -54,18 +60,27 @@
         New Year is widely celebrated on the 1st of January every year, but in some cultures and traditions,
         New Year is celebrated on different days. The celebrations vary on the basis of culture, traditions, countries and regions.
         But it is a day that gives every person choices and chances to make changes in their lives that will lead to happiness and positivity.
+        <br><br><br>
     </p>
     </div>
-    <div class="page3"
+    <div class="page3 container-fluid carousel-item"
     id="page3"
     ontouchstart="p3Start(event)"
     ontouchmove="p3Move(event)"
     ontouchend="p3End(event)">
-      <img class="image" src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Indian_states_by_poverty_in_percentage_%281999-2000%29.png" alt="">
+      <img height="40%" class="image" src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Indian_states_by_poverty_in_percentage_%281999-2000%29.png" alt="">
       <h1>Happy New Year 2020: This was supposed to be fun!</h1>
       <p>
-          As India is one of the fastest-growing economies in the world, poverty is on the decline in the country, with close to 44 Indians escaping extreme poverty every minute, as per the World Poverty Clock. India had 73 million people living in extreme poverty which makes up 6.5% of its total population, according to the Brookings report. In May 2012, the World Bank reviewed and proposed revisions to their poverty calculation methodology and purchasing power parity basis for measuring poverty worldwide.[1] It was a minimal 3.6% in terms of percentage. As of 2020, the incidence of multidimensional poverty has significantly reduced, declining from 54.7 percent to 6 percent
+          As India is one of the fastest-growing economies in the world, poverty is on the decline in the country, with close to 44 Indians escaping extreme poverty every minute, as per the World Poverty Clock. India had 73 million people living in extreme poverty which makes up 6.5% of its total population, according to the Brookings report. In May 2012, the World Bank reviewed and proposed revisions to their poverty calculation methodology and purchasing power parity basis for measuring poverty worldwide.It was a minimal 3.6% in terms of percentage. As of 2020, the incidence of multidimensional poverty has significantly reduced, declining from 54.7 percent to 6 percent
       </p>
+    </div>
+    </div>
+    <a class="carousel-control-prev controls left" href="#pg-carousel" role="button" data-slide="prev">
+      <i class="fa fa-angle-left control-icons"></i>
+    </a>
+    <a class="carousel-control-next controls right" href="#pg-carousel" role="button" data-slide="next">
+      <i class="fa fa-angle-right control-icons"></i>
+    </a>
     </div>
     <div class="row footer">
       <div class="col-4 rel">
