@@ -17,6 +17,14 @@ top: 5.5rem;
   width: 100vw;
   height: 100vh;
 }
+.page3 {
+  display: none;
+  position: absolute;
+  top: 5.5rem;
+  left: 100%;
+  width: 100vw;
+  height: 100vh;
+}
 .Discover {
   font-size: 2.5rem;
   color: black;
